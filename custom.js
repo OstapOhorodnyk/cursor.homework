@@ -14,7 +14,7 @@ let restAfterPayment = customerMoney - sumAllthings;
 let averageAmount = (sumAllthings / 3).toFixed(2);
 let discounr = Math.floor(Math.random() * 60) + 10;
 let priceDiscount = (sumAllthings - discounr).toFixed();
-let profit = priceDiscount / 2;
+let profit = (sumAllthings / 2 - discounr).toFixed();
 
 //Advanced
 
